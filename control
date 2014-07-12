@@ -1,0 +1,9 @@
+Package: org.thebigboss.reducemotiontoggle
+Name: Reduce Motion Flipswitch
+Depends: mobilesubstrate, com.a3tweaks.flipswitch, firmware (>= 7.0)
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Toggle for iOS 7 Reduce Motion.
+Maintainer: PoomSmart
+Author: PoomSmart
+Section: Addons (Flipswitch)
