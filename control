@@ -6,7 +6,7 @@ Replaces: org.thebigboss.reducemotiontoggle
 Conflicts: org.thebigboss.reducemotiontoggle
 Version: 1.0.0
 Architecture: iphoneos-arm
-Description: Toggle for Reduce Motion.
+Description: Flipswitch toggle for Reduce Motion.
 Maintainer: PoomSmart
 Author: PoomSmart
 Section: Addons (Flipswitch)
