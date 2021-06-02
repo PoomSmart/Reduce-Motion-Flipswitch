@@ -5,9 +5,9 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>ReduceMotionToggle</string>
+	<string>ReduceMotionFS</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.PS.ReduceMotionToggle</string>
+	<string>com.PS.ReduceMotionFS</string>
 	<key>CFBundleDisplayName</key>
 	<string>Reduce Motion</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -22,9 +22,7 @@
 	<string>1.0</string>
 	<key>DTPlatformName</key>
 	<string>iphoneos</string>
-	<key>MinimumOSVersion</key>
-	<string>3.0</string>
 	<key>NSPrincipalClass</key>
-	<string>ReduceMotionToggleSwitch</string>
+	<string>ReduceMotionSwitch</string>
 </dict>
 </plist>

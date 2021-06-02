@@ -1,13 +1,14 @@
-SDKVERSION = 7.0
-ARCHS = armv7 armv7s arm64
+PACKAGE_VERSION = 1.0.0
+ARCHS = arm64 arm64e
+TARGET = iphone:clang:latest:11.0
 
-include theos/makefiles/common.mk
+include $(THEOS)/makefiles/common.mk
 
-BUNDLE_NAME = ReduceMotionToggle
-ReduceMotionToggle_FILES = Switch.xm
-ReduceMotionToggle_FRAMEWORKS = UIKit
-ReduceMotionToggle_LIBRARIES = flipswitch
-ReduceMotionToggle_INSTALL_PATH = /Library/Switches
-ReduceMotionToggle_LDFLAGS = -lAccessibility
+BUNDLE_NAME = ReduceMotionFS
+ReduceMotionFS_FILES = Switch.xm
+ReduceMotionFS_FRAMEWORKS = UIKit
+ReduceMotionFS_LIBRARIES = flipswitch
+ReduceMotionFS_INSTALL_PATH = /Library/Switches
+ReduceMotionFS_LDFLAGS = -lAccessibility
 
 include $(THEOS_MAKE_PATH)/bundle.mk
